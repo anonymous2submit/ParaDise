@@ -71,6 +71,7 @@ Table: Ablation studies of the branches based on ResNet18.
 
 <br>
 <br>
+
 ## Object Detection on MS COCO benchmark
 We employ the [mmdetection](https://github.com/open-mmlab/mmdetection) framework for our object detection task. 
 
