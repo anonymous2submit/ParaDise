@@ -34,7 +34,6 @@ python3 -m torch.distributed.launch --nproc_per_node=8 imagenet.py -a pd_a_resne
 
 ## ImageNet classification
 <br>
-<br>
 Table:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set.
 
 | Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Latency(cpu)|Download|
@@ -70,7 +69,8 @@ Table: Ablation studies of the branches based on ResNet18.
 
 
 
-
+<br>
+<br>
 ## Object Detection on MS COCO benchmark
 We employ the [mmdetection](https://github.com/open-mmlab/mmdetection) framework for our object detection task. 
 
@@ -89,6 +89,8 @@ Cascade R-CNN|ResNet50|40.6|58.9|44.2|22.4|43.7|54.7|[model](https://drive.googl
 Cascade R-CNN|PD-A-ResNet50|41.7|60.4|45.3|23.7|44.5|55.3|[model](https://drive.google.com/file/d/1aEWgHfN6bIxyG0l6-byntOB4xAE8HIf9/view?usp=sharing) [log](https://drive.google.com/file/d/1HxpcxiirZH8Eyc8yb-2Gnip06S7Q-MnL/view?usp=sharing)
 Cascade R-CNN|PD-B-ResNet50|42.1|61.0|45.7|24.3|45.3 |55.5|[model](https://drive.google.com/file/d/1aEWgHfN6bIxyG0l6-byntOB4xAE8HIf9/view?usp=sharing) [log](https://drive.google.com/file/d/1HxpcxiirZH8Eyc8yb-2Gnip06S7Q-MnL/view?usp=sharing)
 
+<br>
+<br>
 ## Other visual tasks
 
 We argure that our ParaDise is suitable for other visual tasks, like **segmentation**, **keypoints detection**, etc. 
